@@ -94,7 +94,7 @@ const Cart = () => {
         )}
       </div>
 
-      <div className="w-1/3 max-lg:w-full flex flex-col gap-8 bg-grey-2 rounded-lg px-4 py-5">
+      <div className="w-1/3 max-lg:w-full flex flex-col gap-8 bg-grey-2 rounded-lg px-4 py-5 bg-grey-5">
         <p className="text-heading4-bold pb-4">
           Summary{" "}
           <span>{`(${cart.cartItems.length} ${cart.cartItems.length > 1 ? "items" : "item"
@@ -106,7 +106,7 @@ const Cart = () => {
           <span>฿ {totalRounded}</span>
         </div>
         <button
-          className="border rounded-lg text-body-bold bg-white py-3 w-full hover:bg-grey-5 hover:text-white"
+          className="border rounded-lg text-body-bold bg-white py-3 w-full hover:bg-pink-brown hover:text-white"
           onClick={handleCheckout}
         >
           Proceed to Checkout
