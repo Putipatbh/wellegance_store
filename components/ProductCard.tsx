@@ -12,7 +12,7 @@ interface ProductCardProps {
 const ProductCard = ({ product, updateSignedInUser }: ProductCardProps ) =>  {
 
     return (
-        <Link href={`/products/${product._id}`} className="w-[220px] flex flex-col gap-2 rounded-lg bg-white-1 p-3 transform transition-transform duration-300 hover:scale-110 hover:shadow-xl">
+        <Link href={`/products/${product._id}`} className="w-[300px] flex flex-col gap-2 rounded-lg bg-white-1 p-3 transform transition-transform duration-300 hover:scale-110 hover:shadow-xl">
             <Image
                 src={product.media[0]}
                 alt="product"
