@@ -34,7 +34,7 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
             {productInfo.colors.length > 0 && (
                 <div className="flex flex-col gap-2">
                     <p className="text-base-medium text-grey-4">Colors:</p>
-                    <div className="flex gap-2  w-[500px]">
+                    <div className="flex gap-2  w-[400px] overflow-auto tailwind-scrollbar-hide">
                         {productInfo.colors.map((color, index) => (
                             <p
                                 key={index}
