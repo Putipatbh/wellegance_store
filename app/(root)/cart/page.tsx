@@ -106,7 +106,7 @@ const Cart = () => {
           <span>฿ {totalRounded}</span>
         </div>
         <button
-          className="border rounded-lg text-body-bold bg-white py-3 w-full hover:bg-black hover:text-white"
+          className="border rounded-lg text-body-bold bg-white py-3 w-full hover:bg-pink-brown hover:text-white"
           onClick={handleCheckout}
         >
           Proceed to Checkout
