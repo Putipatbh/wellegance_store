@@ -94,6 +94,7 @@ const config: Config = {
   			'grey-2': '#E5E7EB',
         'grey-3': '#C7C8D1',
         'grey-4': '#8F91A3',
+        'grey-5': '#D3C5C4',
         "grey-font": "#5C5E70",
   			'pink-1': '#F7C6C7',
   			'pink-2': '#F7D8D9',
