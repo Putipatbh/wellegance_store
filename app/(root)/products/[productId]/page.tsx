@@ -21,7 +21,7 @@ const ProductDetails = async ({ params }: { params: { productId: string } }) => 
 
             <div className="flex flex-col items-center px-10 py-5 max-md:px-3 max-md:items-center bg-white-cream">
                 <p className="text-heading3-bold">Related Products</p>
-                <div className="flex flex-nowrap gap-3 w-[1400px] h-auto mx-auto mt-8 overflow-auto tailwind-scrollbar-hide">
+                <div className="flex flex-nowrap gap-3 w-[1400px] p-3 h-auto mx-auto mt-8 overflow-auto tailwind-scrollbar-hide">
                     {relatedProducts?.map((product: ProductType) => (
                         <ProductCard key={product._id} product={product} />
                     ))}
